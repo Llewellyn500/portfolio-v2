@@ -1,0 +1,59 @@
+{
+  "short_name": "Llewellyn",
+  "name": "Llewellyn Paintsil's portfolio",
+  "icons": [
+    {
+      "src": "./images/logo.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/icons/icon48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": ".images/icons/icon72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": ".images/icons/icon96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": ".images/icons/icon128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": ".images/icons/icon144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": ".images/icons/icon152.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": ".images/icons/icon192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },{
+      "src": ".images/icons/icon384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": ".images/icons/icon512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffffff",
+  "background_color": "#000000"
+}
