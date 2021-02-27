@@ -492,7 +492,8 @@ home section
 }
 .home-section .home-text p {
   color: var(--skin-color);
-  font-size: 26px;
+  font-size: 28px;
+  font-weight: 500;
   text-transform: capitalize;
   margin: 0;
 }
