@@ -511,7 +511,7 @@ home section
   text-transform: capitalize;
 }
 .home-section .home-text a {
-  font-weight: 700;
+  font-weight: 500;
 }
 .home-section .home-text .btn-1 {
   margin-top: 30px;
