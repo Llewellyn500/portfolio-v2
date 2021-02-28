@@ -312,7 +312,7 @@ header
 --------------*/
 .header {
   padding: 20px 15px;
-  position: absolute;
+  position: fixed;
   width: 100%;
   top: 0;
   left: 0;
