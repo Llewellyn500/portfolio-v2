@@ -63,6 +63,14 @@ body {
 a {
   text-decoration: none;
 }
+a:link {
+  color: var(--skin-color);
+}
+
+/* visited link */
+a:visited {
+  color: var(--skin-color);
+}
 ul {
   list-style: none;
   margin: 0;
