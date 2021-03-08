@@ -38,6 +38,8 @@
     <link rel="apple-touch-icon" href="./img/icons/ios/ios-icon.png" />
     <!-- Icons End -->
 
+    <!-- a helper script for validating the contact form -->
+    <script language="JavaScript" src="./js/gen_validatorv31.js" type="text/javascript"></script>
 
 
     <!-- Links Start -->
@@ -935,12 +937,13 @@
         </div>
         <div class="row">
           <div class="contact-form">
-            <form>
+            <form method="POST" name="contactform" action="contact-form-handler.php">
               <div class="row">
                 <div class="w-50">
                   <div class="input-group outer-shadow hover-in-shadow">
                     <input
                       type="text"
+                      name="full name"
                       placeholder="Name"
                       class="input-control"
                     />
@@ -948,6 +951,7 @@
                   <div class="input-group outer-shadow hover-in-shadow">
                     <input
                       type="text"
+                      name="email"
                       placeholder="Email"
                       class="input-control"
                     />
@@ -955,6 +959,7 @@
                   <div class="input-group outer-shadow hover-in-shadow">
                     <input
                       type="text"
+                      name="subject"
                       placeholder="Subject"
                       class="input-control"
                     />
@@ -965,6 +970,7 @@
                     <textarea
                       class="input-control"
                       placeholder="Message"
+                      name="message"
                     ></textarea>
                   </div>
                 </div>
@@ -973,6 +979,7 @@
                 <div class="submit-btn">
                   <button
                     type="submit"
+                    value="submit"
                     class="btn-1 outer-shadow hover-in-shadow"
                   >
                     Send Message
@@ -1072,7 +1079,16 @@
           $("header").removeClass("scroll");
         }
       });
-
     </script>
+
+<script language="JavaScript">
+  // Code for validating the form
+  // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+  // for details
+  var frmvalidator  = new Validator("contactform");
+  frmvalidator.addValidation("full name","req","Please provide your name"); 
+  frmvalidator.addValidation("email","req","Please provide your email"); 
+  frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+  </script>
   </body>
 </html>
