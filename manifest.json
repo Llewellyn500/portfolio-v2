@@ -3,8 +3,8 @@
   "short_name": "Llewellyn",
   "start_url": "./index.html",
   "display": "standalone",
-  "theme_color": "#ffffffff",
-  "background_color": "#000000",
+  "theme_color": "#2196f3",
+  "background_color": "#353535",
   "orientation": "portrait-primary",
   "icons": [
     {
