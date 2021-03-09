@@ -1,11 +1,16 @@
 {
-  "short_name": "Llewellyn",
   "name": "Llewellyn Adonteng Paintsil's portfolio",
+  "short_name": "Llewellyn",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#ffffffff",
+  "background_color": "#000000",
+  "orientation": "portrait-primary",
   "icons": [
     {
       "src": "./img/logo.png",
-      "sizes": "1024x1024",
-      "type": "image/png"
+      "type": "image/png",
+      "sizes": "1000x1000"
     },
     {
       "src": "./img/icons/icon48.png",
@@ -51,9 +56,5 @@
       "type": "image/png",
       "sizes": "512x512"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#ffffffff",
-  "background_color": "#000000"
+  ]
 }
