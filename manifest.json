@@ -3,20 +3,18 @@
   "short_name": "Llewellyn",
   "start_url": "./index.html",
   "display": "standalone",
+  "description": "Llewellyn Paintsil's Portfolio showing all his projects, achievements, and skills for when you want to hire him.",
+  "categories": ["portfolio", "projects", "programming", "hiring", "website"],
+  "lang": "English",
   "theme_color": "#317EFB",
   "background_color": "#353535",
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": ".img/maskable_icon_x192.png",
-      "type": "image/png",
-      "sizes": "192x192",
-      "purpose": "any maskable"
-    },
-    {
       "src": "./img/logo.png",
       "type": "image/png",
-      "sizes": "1000x1000"
+      "sizes": "1000x1000",
+      "purpose": "any maskable"
     },
     {
       "src": "./img/icons/icon48.png",
