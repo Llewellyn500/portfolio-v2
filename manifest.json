@@ -8,13 +8,13 @@
   "lang": "English",
   "theme_color": "#317EFB",
   "background_color": "#353535",
-  "orientation": "portrait-primary",
+  "orientation": "portrait",
+  "scope": "/",
   "icons": [
     {
       "src": "./img/logo.png",
       "type": "image/png",
-      "sizes": "1000x1000",
-      "purpose": "any maskable"
+      "purpose": "maskable"
     },
     {
       "src": "./img/icons/icon48.png",
@@ -50,10 +50,6 @@
       "src": "./img/icons/icon192.png",
       "type": "image/png",
       "sizes": "192x192"
-    },{
-      "src": "./img/icons/icon384.png",
-      "type": "image/png",
-      "sizes": "384x384"
     },
     {
       "src": "./img/icons/icon512.png",
