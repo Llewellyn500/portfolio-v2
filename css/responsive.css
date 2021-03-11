@@ -24,9 +24,12 @@
   .home-section .home-text {
     order: 2;
   }
-  .contact-section .submit-btn,
   .home-section .home-text {
     text-align: center;
+  }
+  .contact-section .submit-btn {
+    text-align: center;
+    margin-top: 20px;
   }
   .home-section .full-screen {
     padding: 100px 0;
