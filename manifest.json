@@ -8,8 +8,7 @@
   "lang": "English",
   "theme_color": "#317EFB",
   "background_color": "#353535",
-  "orientation": "portrait",
-  "scope": "/",
+  "orientation": "portrait-primary",
   "icons": [
     {
       "src": "./img/logo.png",
