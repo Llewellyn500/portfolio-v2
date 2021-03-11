@@ -183,10 +183,6 @@
               >contact</a
             >
           </li>
-          <li>
-            <a href="#" class="link-item outer-shadow hover-in-shadow"
-              >My Blog</a>
-          </li>
         </ul>
       </div>
       <!-- copyright text -->
@@ -1009,6 +1005,10 @@
               <div class="row">
                 <div class="submit-btn">
                   <button
+                    class="g-recaptcha" 
+                    data-sitekey="6LeqeHsaAAAAAKHe1qL23no-MfwxOL4iILjSPWwt" 
+                    data-callback='onSubmit' 
+                    data-action='submit'
                     type="submit"
                     value="submit"
                     class="btn-1 outer-shadow hover-in-shadow"
@@ -1094,12 +1094,23 @@
     <!-- style switcher end -->
 
 
-    <!-- service worker -->
-    <script src="./js/app.js"></script>
     <!-- main js -->
     <script src="./js/main.js"></script>
+
+    <!-- service worker js -->
+    <script src="./js/app.js"></script>
+
     <!-- style switcher js -->
     <script src="./js/style-switcher.js"></script>
+
+    <script>
+      function onSubmit(token) {
+        document.getElementById("contactform").submit();
+      }
+    </script>
+
+    <!-- reCAPTCHA -->
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 
     <!-- jquery scroll function -->
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
