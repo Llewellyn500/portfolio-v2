@@ -484,10 +484,11 @@ navigation menu
 .nav-menu .copyright-text {
   position: absolute;
   top: 50%;
-  font-size: 15px;
-  color: var(--text-black-600);
+  font-size: 19px;
+  color: var(--skin-color);
   transform: translateY(-50%) rotate(-90deg);
-  left: -60px;
+  left: -70px;
+  font-weight: 500;
 }
 
 /*-------------
