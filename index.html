@@ -1123,9 +1123,11 @@
         // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
         // for details
         var frmvalidator  = new Validator("contactform");
-        frmvalidator.addValidation("name","req","Please provide your name"); 
-        frmvalidator.addValidation("email","req","Please provide your email"); 
+        frmvalidator.addValidation("name","req","Please provide your name😊. I would love to know who is contacting me."); 
+        frmvalidator.addValidation("email","req","Please provide your email📨. I would love to reply to your message with ease"); 
         frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+        frmvalidator.addValidation("subject","req","Please don't leave the subject blank, I would like to know your reason for contacting me😌.");
+        frmvalidator.addValidation("message","req","Please don't leave the message blank, I would like to know what you have to tell me😋.");
       </script>
   </body>
 </html>
