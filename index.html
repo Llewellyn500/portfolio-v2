@@ -117,6 +117,9 @@
     <!-- UC Browser -->
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="./img/icons/ios/ios-icon57.png" />
 
+    <!-- reCAPTCHA -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
   </head>
   <body>
     <!-- preloader start -->
@@ -960,10 +963,9 @@
           <!-- contact item end -->
         </div>
 
-
         <div class="row">
           <div class="contact-form">
-            <form action="https://usebasin.com/f/8197229333f2" method="post" name="contactform">
+            <form accept-charset="UTF-8" action="https://usebasin.com/f/8197229333f2" method="post" name="contactform" id="invisible-recaptcha-form">
               <div class="row">
                 <div class="w-50">
                   <div class="input-group outer-shadow hover-in-shadow">
@@ -1002,16 +1004,15 @@
                   </div>
                 </div>
               </div>
+
               <div class="row">
                 <div class="submit-btn">
                   <button
-                    class="g-recaptcha" 
-                    data-sitekey="6LeqeHsaAAAAAKHe1qL23no-MfwxOL4iILjSPWwt" 
-                    data-callback='onSubmit' 
-                    data-action='submit'
+                    data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy" data-callback='onSubmit' 
+                    data-badge="inline"
                     type="submit"
                     value="submit"
-                    class="btn-1 outer-shadow hover-in-shadow"
+                    class="btn-1 outer-shadow hover-in-shadow g-recaptcha"
                   >
                     Send Message
                   </button>
@@ -1020,7 +1021,7 @@
             </form>
           </div>
         </div>
-      </div>
+  </div>
     </section>
     <!-- contact section end -->
 
@@ -1103,15 +1104,6 @@
     <!-- style switcher js -->
     <script src="./js/style-switcher.js"></script>
 
-    <script>
-      function onSubmit(token) {
-        document.getElementById("contactform").submit();
-      }
-    </script>
-
-    <!-- reCAPTCHA -->
-    <script src="https://www.google.com/recaptcha/api.js"></script>
-
     <!-- jquery scroll function -->
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script>
@@ -1125,10 +1117,10 @@
       });
     </script>
 
-        <!-- a helper script for validating the contact form -->
-        <script language="JavaScript" src="./js/gen_validatorv31.js" type="text/javascript"></script>
+      <!-- a helper script for validating the contact form -->
+      <script language="JavaScript" src="./js/gen_validatorv31.js" type="text/javascript"></script>
 
-<!-- Form Validator -->
+      <!-- Form Validator -->
       <script language="JavaScript">
         // Code for validating the form
         // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
@@ -1140,5 +1132,12 @@
         frmvalidator.addValidation("subject","req","Please don't leave the subject blank, I would like to know your reason for contacting me😌.");
         frmvalidator.addValidation("message","req","Please don't leave the message blank, I would like to know what you have to tell me😋.");
       </script>
+
+      <script>
+      function onSubmit(token) {
+      document.getElementById("invisible-recaptcha-form").submit();
+      }
+    </script>
+  
   </body>
 </html>
