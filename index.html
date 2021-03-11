@@ -965,7 +965,7 @@
 
         <div class="row">
           <div class="contact-form">
-            <form accept-charset="UTF-8" action="https://usebasin.com/f/8197229333f2" method="post" name="contactform" id="invisible-recaptcha-form">
+            <form accept-charset="UTF-8" action="https://usebasin.com/f/8197229333f2" method="post" name="contactform">
               <div class="row">
                 <div class="w-50">
                   <div class="input-group outer-shadow hover-in-shadow">
@@ -1003,13 +1003,12 @@
                     ></textarea>
                   </div>
                 </div>
+                <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
               </div>
 
               <div class="row">
                 <div class="submit-btn">
                   <button
-                    data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy" data-callback='onSubmit' 
-                    data-badge="inline"
                     type="submit"
                     value="submit"
                     class="btn-1 outer-shadow hover-in-shadow g-recaptcha"
@@ -1132,12 +1131,6 @@
         frmvalidator.addValidation("subject","req","Please don't leave the subject blank, I would like to know your reason for contacting me😌.");
         frmvalidator.addValidation("message","req","Please don't leave the message blank, I would like to know what you have to tell me😋.");
       </script>
-
-      <script>
-      function onSubmit(token) {
-      document.getElementById("invisible-recaptcha-form").submit();
-      }
-    </script>
   
   </body>
 </html>
