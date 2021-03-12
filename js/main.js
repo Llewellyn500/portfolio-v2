@@ -1,4 +1,4 @@
-// ------------------- navigation menu ------------------------ 
+// ------------------- navigation menu ------------------------
 
 (() => {
   const hamburgerBtn = document.querySelector(".hamburger-btn"),
