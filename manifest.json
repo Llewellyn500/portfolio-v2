@@ -13,7 +13,7 @@
     {
       "src": "./img/logo.png",
       "type": "image/png",
-      "purpose": "maskable"
+      "sizes": "1000x1000"
     },
     {
       "src": "./img/icons/icon48.png",
