@@ -1,6 +1,1 @@
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker
-    .register("/sw.js")
-    .then((reg) => console.log("service worker registered", reg))
-    .catch((err) => console.log("service worker not registered", err));
-}
+eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('9("0"a 1){1.0.b("/c.d").e((2)=>3.4("5 6 7",2)).f((8)=>3.4("5 6 g 7",8))}',17,17,'serviceWorker|navigator|reg|console|log|service|worker|registered|err|if|in|register|sw|js|then|catch|not'.split('|'),0,{}))

@@ -229,7 +229,9 @@
       <div class="nav-menu-inner">
         <ul>
           <li>
-            <a href="./index.html" class="link-item inner-shadow active">home</a>
+            <a href="./index.html" class="link-item inner-shadow active"
+              >home</a
+            >
           </li>
           <li>
             <a href="#about" class="link-item outer-shadow hover-in-shadow"
@@ -1320,53 +1322,18 @@
     <!-- jquery scroll function -->
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script>
-      $(window).scroll(function () {
-        if ($(window).scrollTop()) {
-          $("header").addClass("scroll");
-        } else {
-          $("header").removeClass("scroll");
-        }
-      });
+    $(window).scroll(function(){if($(window).scrollTop()){$("header").addClass("scroll")}else{$("header").removeClass("scroll")}});
     </script>
 
-    <!-- a helper script for validating the contact form -->
+    <!-- Form Validator -->
     <script
       language="JavaScript"
       src="./js/gen_validatorv31.js"
       type="text/javascript"
     ></script>
-
-    <!-- Form Validator -->
     <script language="JavaScript">
-      // Code for validating the form
-      // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
-      // for details
-      var frmvalidator = new Validator("contactform");
-      frmvalidator.addValidation(
-        "name",
-        "req",
-        "Please provide your name😊. I would love to know who is contacting me."
-      );
-      frmvalidator.addValidation(
-        "email",
-        "req",
-        "Please provide your email📨. I would love to reply to your message with ease"
-      );
-      frmvalidator.addValidation(
-        "email",
-        "email",
-        "Please enter a valid email address"
-      );
-      frmvalidator.addValidation(
-        "subject",
-        "req",
-        "Please don't leave the subject blank, I would like to know your reason for contacting me😌."
-      );
-      frmvalidator.addValidation(
-        "message",
-        "req",
-        "Please don't leave the message blank, I would like to know what you have to tell me😋."
-      );
+      // Code for validating the form Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml for details
+      var frmvalidator=new Validator("contactform");frmvalidator.addValidation("name","req","Please provide your name😊. I would love to know who is contacting me.");frmvalidator.addValidation("email","req","Please provide your email📨. I would love to reply to your message with ease");frmvalidator.addValidation("email","email","Please enter a valid email address");frmvalidator.addValidation("subject","req","Please don't leave the subject blank, I would like to know your reason for contacting me😌.");frmvalidator.addValidation("message","req","Please don't leave the message blank, I would like to know what you have to tell me😋.");
     </script>
   </body>
 </html>
