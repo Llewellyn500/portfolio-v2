@@ -3,7 +3,7 @@ var VERSION = "version_01"; // Version of the off-line cache (change this value 
 var CACHE_NAME = APP_PREFIX + VERSION;
 var URLS = [
   // Add URL you want to cache in this list.
-  "/portfolio/", // If you have separate JS/CSS files,
+  "/portfolio/img/logo.png", // If you have separate JS/CSS files,
   "/portfolio/offline.html", // add path to those files here
 ];
 
