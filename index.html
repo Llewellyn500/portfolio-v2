@@ -16,6 +16,8 @@
 
     <title>Llewellyn Adonteng Paintsil</title>
 
+    <link rel="canonical" href="https://llewellyn500.github.io/portfolio/" />
+
     <!-- Google Ownership Verification -->
     <meta
       name="google-site-verification"
@@ -1278,7 +1280,12 @@
     <script src="./js/main.js"></script>
 
     <!-- service worker js -->
-    <script src="./js/app.js"></script>
+    <script>
+      // register ServiceWorker, remember to use absolute path!
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker.register('/portfolio/sw.js', {scope: '/portfolio/'})
+      }
+      </script>
 
     <!-- style switcher js -->
     <script src="./js/style-switcher.js"></script>
