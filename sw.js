@@ -20,7 +20,7 @@ self.addEventListener('install', function(event) {
             error
           );
           return caches.open('offline').then(function(cache) {
-            return cache.match('offline.html');
+            return cache.match('/portfolio/offline.html');
           });
         })
       );
