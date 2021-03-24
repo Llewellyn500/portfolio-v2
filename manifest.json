@@ -11,7 +11,7 @@
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "./img/logo.png",
+      "src": "./img/maskable-logo.png",
       "type": "image/png",
       "sizes": "1000x1000",
       "purpose": "maskable"
