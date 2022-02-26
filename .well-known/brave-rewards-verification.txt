@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: llewellyn500.github.io
+Token: 1acff7998958752db34181e28d12d2d13a47b6e5c07002ed205ded011347f091
